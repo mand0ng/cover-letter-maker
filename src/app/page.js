@@ -180,7 +180,7 @@ export default function Home() {
   };
 
   return (
-    <main className="m-30 min-h-screen p-6 md:p-24 flex flex-col items-center font-sans">
+    <main className="min-h-screen w-full px-4 py-12 md:p-24 flex flex-col items-center font-sans">
       {/* Hero Section */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -351,7 +351,7 @@ export default function Home() {
         <motion.div
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
-          className="flex flex-col gap-6 sticky top-8"
+          className="flex flex-col gap-6 md:sticky md:top-8"
         >
           <div className="glass p-8 min-h-[500px] flex flex-col rounded-2xl">
             <div className="flex items-center justify-between mb-6 pb-4 border-b border-white/10">
